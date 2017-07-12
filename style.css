@@ -1,0 +1,31 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+body {
+  background-color: #ffcdd2;
+}
+
+span {
+  font-size: 4vw;
+}
+
+.center-align{
+  margin-top: 20vh;
+}
+
+@media only screen and (max-width: 601px){
+  .brand-logo{
+    margin-top: 2px;
+    width: 48px;
+  }
+
+  span {
+    font-size: 4em;
+  }
+
+  .center-align{
+    margin-top: 10vh;
+  }
+}
